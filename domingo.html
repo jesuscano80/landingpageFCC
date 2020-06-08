@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+   <link rel="stylesheet" href="domingo.css">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" /> 
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <style > @media (max-width: 500px) { #header { display: flex; } } </style>
+
+</head>
+<body>
+    <header id="header">
+        <div id="headerimage" class="img-fluid">
+        </div>
+        <nav id="nav-bar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img id="header-img" src="https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/f4/b7/27/f4b7275a-0ffe-33e6-cd1d-c0e6329b25a4/source/256x256bb.jpg" alt="logo"> Madrid: cuarentena fase dos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#form"><button type="button" class="btn btn-primary">Inicio</button></a>
+                <a class="nav-item nav-link" href="#caracteristicas"><button type="button" class="btn btn-primary">Qué puedo hacer</button></a>
+                <a class="nav-item nav-link" href="#enlace"><button type="button" class="btn btn-primary">Video</button></a>
+              
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <div id="haztesocio">
+        <h2>HOLA! subscribete a nuestro correo</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+<input id="email" type="email" placeholder="juangarcia@correo.com" name="email">
+<input class="mt-2" id="submit" type="submit" value="Envialo!" >
+
+    </form>
+    </div>
+<h3 class="text-center my-5">¿Qué puedo hacer en la fase 2?</h3>
+<hr class="color:blue">
+    <div id="caracteristicas" class="row flex mx-5 my-5"> 
+        <div class="icono col-lg-3"> <i class="fas fa-store"></i></div><div class="textos col-lg-9"><h4>Apertura de los centros comerciales</h4><p>Siguen cerradas las zonas comunes y aforo limitado al 40%</p></div>
+        <div class="icono col-lg-3"> <i class="fas fa-utensils"></i></div><div class="textos col-lg-9"><h4>Abren los restaurantes</h4><p>con una limitación de entre el 30% y el 50% del aforo. Solo servicio a mesas</p></div>
+        <div class="icono col-lg-3"> <i class="fas fa-graduation-cap"></i></div><div class="textos col-lg-9"><h4>Los colegios no</h4><p>Los centros educativos no universitarios podrán reanudar las clases presenciales</p></div>
+        <div class="icono col-lg-3"> <i class="fas fa-ticket-alt"></i></div><div class="textos col-lg-9"><h4>Cines y teatros</h4><p>pueden abrir al 33% de su aforo</p></div>
+    </div>
+    <h3 id="enlace" class="text-center my-5">Video explicativo fase 2</h3>
+    <hr class="color:blue">
+<div id="elvideo">
+  
+  <iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/GaC16BFymKU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+
+<div class="card-deck my-5 mx-5">
+  <div class="card">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1509845350455-fb0c36048db1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Fase 0 </h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1564565946561-e738711bdbd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Fase 1</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1571316090783-bf029ad15bc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Fase 2</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+<footer>
+<p>Realizada para FreeCodeCamp  08/06/2020</p>
+</footer>
+
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+
+
+
+
